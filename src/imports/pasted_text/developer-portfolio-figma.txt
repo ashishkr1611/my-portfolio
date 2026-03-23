@@ -1,0 +1,178 @@
+Design a PREMIUM, high-end personal portfolio UI in Figma for a Full-Stack Developer & Data Enthusiast.
+
+The design should reflect an advanced, interactive portfolio with scroll-based storytelling and modern animations.
+
+--------------------------------------
+
+🎨 DESIGN STYLE:
+
+- Dark theme (#0F172A base)
+- Gradient accents (blue → purple → indigo)
+- Glassmorphism + blur effects
+- Smooth, modern, minimal UI (Apple / Vercel style)
+- Strong spacing system (8px grid)
+- Clean typography (Inter / Poppins)
+
+--------------------------------------
+
+📱 RESPONSIVE DESIGN:
+
+Create layouts for:
+- Desktop (1440px)
+- Tablet (768px)
+- Mobile (375px)
+
+--------------------------------------
+
+🧠 USER DETAILS:
+
+Name: Ashish Kumar  
+Title: Full-Stack Developer & Data Enthusiast  
+
+--------------------------------------
+
+🔥 HERO SECTION (ADVANCED):
+
+- Large gradient heading
+- Animated typing placeholder
+- CTA buttons (View Projects / Contact)
+- Social icons
+
+🎬 SPECIAL FEATURE:
+- Design a scroll-based animation section:
+  - Fullscreen hero with image sequence concept
+  - Placeholder frames showing animation progression
+  - Scroll indicator showing progression
+
+--------------------------------------
+
+🎥 SCROLL-BASED IMAGE SEQUENCE (KEY FEATURE):
+
+Design a section where:
+
+- A Canvas-based animation plays while user scrolls
+- Multiple frames simulate motion (like product reveal / storytelling)
+- Include:
+  - Frame placeholders (image sequence concept)
+  - Sticky section (content stays fixed while scrolling)
+  - Scroll progress indicator
+
+💡 Example concept:
+- “Project evolution”
+- “Idea → Design → Build → Result”
+
+--------------------------------------
+
+🌊 PARALLAX TEXT OVERLAYS:
+
+- Add layered text over scroll sections
+- Text moves at different speeds (parallax effect)
+- Example:
+  - Background moves slow
+  - Text moves faster
+
+--------------------------------------
+
+🚀 PROJECTS SECTION (MODERN GRID):
+
+- Use a modern grid layout (bento grid / asymmetrical grid)
+- Featured project (large card)
+- Smaller supporting project cards
+
+Each project card includes:
+- Title
+- Description
+- Tech stack tags
+- Buttons (GitHub / Live)
+
+🎬 Interaction:
+- Hover → scale + glow
+- Image zoom effect
+
+--------------------------------------
+
+🛠 SKILLS SECTION:
+
+- Animated cards or floating badges
+- Glow hover effect
+- Icons included
+
+--------------------------------------
+
+💼 EXPERIENCE:
+
+- Timeline UI with animated nodes
+
+--------------------------------------
+
+📊 STATS SECTION:
+
+- Animated number cards (count-up concept)
+
+--------------------------------------
+
+📞 CONTACT SECTION:
+
+- Clean contact form UI
+- Strong CTA:
+  “Let’s build something amazing 🚀”
+
+--------------------------------------
+
+🧭 NAVBAR:
+
+- Sticky navbar
+- Transparent → solid on scroll
+- Includes theme toggle
+
+--------------------------------------
+
+🎬 INTERACTIONS TO DESIGN:
+
+Design states for:
+
+- Hover (cards, buttons)
+- Active
+- Focus (inputs)
+- Scroll progress bar (top)
+- Section transitions
+
+--------------------------------------
+
+📦 COMPONENT SYSTEM:
+
+Create reusable components:
+
+- Buttons (primary + secondary)
+- Cards (project, skill)
+- Navbar
+- Input fields
+- Section wrapper
+
+--------------------------------------
+
+🎯 ADVANCED UI FEATURES (IMPORTANT):
+
+- Scroll-based storytelling layout
+- Sticky sections for animation
+- Canvas animation placeholder
+- Parallax layers
+- Bento grid for projects
+
+--------------------------------------
+
+📦 OUTPUT:
+
+- Pixel-perfect Figma file
+- Auto layout used everywhere
+- Proper layer naming
+- Developer-friendly spacing
+- Ready for React conversion
+
+--------------------------------------
+
+IMPORTANT:
+
+The UI should feel like an INTERACTIVE EXPERIENCE, not just a static portfolio.
+Focus on motion, storytelling, and premium visual hierarchy.
+Avoid basic layouts — aim for a high-end developer portfolio.
