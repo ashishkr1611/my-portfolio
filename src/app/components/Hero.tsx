@@ -4,7 +4,7 @@ import { Github, Linkedin, ArrowDown, Mail } from "lucide-react";
 import { useColors } from "./ThemeContext";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { CanvasBackground } from "./CanvasBackground";
-import profilePhoto from "@/assets/032452ffaa1b2b1ebb1531a35642f86684025273.png";
+import profilePhoto from "@/assets/photo.png";
 
 const PROFILE_IMG = profilePhoto;
 
