@@ -18,7 +18,7 @@ const education = [
   {
     degree: "Intermediate (Class XII) — Bihar School Examination Board",
     school: "S.N.S College, Motihari",
-    year: "2021 - 2022",
+    year: "2020 - 2022",
     desc: "Percentage: 70.6%",
   },
   {

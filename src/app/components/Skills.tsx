@@ -47,11 +47,11 @@ export function Skills() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2
-            className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-3"
-            style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "clamp(2rem, 4vw, 3rem)", fontStyle: "italic" }}
-          >
-            Technical Skills
+          <h2 className={c.text} style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "clamp(2rem, 4vw, 3rem)" }}>
+            Technical{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+              Skills
+            </span>
           </h2>
           <p className={c.textSecondary} style={{ fontFamily: "Inter, sans-serif", fontSize: "0.95rem" }}>
             Technologies and tools I work with.

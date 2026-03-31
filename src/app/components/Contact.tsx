@@ -161,13 +161,34 @@ export function Contact() {
 
           <div className="space-y-6">
             {[
-              { icon: Mail, label: "Email", value: "work.ashish00@gmail.com" },
+              { icon: Mail, label: "Email", value: "work.ashish00@gmail.com", href: "mailto:work.ashish00@gmail.com" },
               { icon: MapPin, label: "Location", value: "Greater Noida, Uttar Pradesh, India" },
-            ].map(({ icon: Icon, label, value }) => (
+            ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className={`backdrop-blur-sm border rounded-2xl p-6 contact-info ${c.cardBg} ${c.cardBorder}`}>
                 <Icon size={20} className="text-blue-400 mb-3" />
                 <p className={c.textMuted} style={{ fontFamily: "Inter, sans-serif", fontSize: "0.75rem" }}>{label}</p>
-                <p className={c.text} style={{ fontFamily: "Inter, sans-serif", fontSize: "0.9rem" }}>{value}</p>
+                {href ? (
+                  <motion.a 
+                    href={href}
+                    initial="initial"
+                    whileHover="hover"
+                    className={`${c.text} hover:text-blue-400 transition-colors cursor-pointer relative inline-block pb-0.5`}
+                    style={{ fontFamily: "Inter, sans-serif", fontSize: "0.9rem" }}
+                  >
+                    {value}
+                    <motion.div
+                      className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-blue-400 to-purple-400"
+                      variants={{
+                        initial: { scaleX: 0, opacity: 0 },
+                        hover: { scaleX: 1, opacity: 1 }
+                      }}
+                      transition={{ duration: 0.3, ease: "easeOut" }}
+                      style={{ originX: 0 }}
+                    />
+                  </motion.a>
+                ) : (
+                  <p className={c.text} style={{ fontFamily: "Inter, sans-serif", fontSize: "0.9rem" }}>{value}</p>
+                )}
               </div>
             ))}
           </div>
